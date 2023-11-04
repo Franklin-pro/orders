@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd;
+}
+
+.order-container{
+    background-color: #cccbcb;
+}
+.order-cards{
+    /* background-color: #b9b9b9; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+  padding: 1rem 3rem;
+  
+}
+.produ{
+    padding: .5rem 3rem;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: solid rgba(214, 34, 64, 0.788);
+    text-align: center;
+    font-weight: bold;
+}
+
+.cards{
+    background-color: rgb(65, 203, 238);
+    transition: all .3s;
+ padding-bottom: 1rem;
+    
+}
+.card1{
+    width: 100%;
+}
+.card1 img{
+    width: 100%;
+}
+.select{
+  
+    padding: .4rem;
+    display: flex;
+    gap: 1rem;
+}
+.her{
+    font-size: 1.2rem;
+    padding: .2rem 1rem;
+color: rgb(240, 44, 77);
+}
+.select select {
+    display: flex;
+    padding: .4rem 3rem;
+  
+}
+.btn-order{
+    display: flex;
+    justify-content: center;
+}
+.btn-ord{
+    padding: 1rem 3rem;
+    background-color: rgba(214, 34, 64, 0.788);
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    color: #ddd;
+    transition: all .3s;
+}
+.cards:hover{
+    background-color: rgba(81, 212, 245, 0.747);
+    font-size: 1.4rem;
+}
+.btn-ord:hover{
+    /* padding: 1.3rem 3rem; */
+    font-size: 1.4rem;
+    background: transparent;
+    border: solid rgba(214, 34, 64, 0.788);
+    color: black;
+}
+
